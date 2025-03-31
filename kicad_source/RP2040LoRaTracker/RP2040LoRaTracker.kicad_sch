@@ -1,0 +1,95 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "143f7a5b-9016-4d2c-b741-f535648590f8")
+	(paper "A4")
+	(title_block
+		(title "RP2040LoRaTracker")
+		(date "2025-03-31")
+		(rev "0.1")
+		(company "generationmake")
+	)
+	(lib_symbols)
+	(sheet
+		(at 215.9 114.3)
+		(size 22.86 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "910e63e5-4a03-4b20-a38f-348d4b59ea4e")
+		(property "Sheetname" "RP2040"
+			(at 215.9 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2040.kicad_sch"
+			(at 215.9 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 133.35)
+		(size 22.86 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5")
+		(property "Sheetname" "LoRa GNSS"
+			(at 215.9 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lora_gnss.kicad_sch"
+			(at 215.9 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
