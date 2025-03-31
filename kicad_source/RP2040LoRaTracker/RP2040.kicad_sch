@@ -5163,7 +5163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 45.72 50.8 0)
 			(effects
 				(font
@@ -7533,7 +7533,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_Micro-B_Molex_47346-0001"
 			(at 34.29 152.4 0)
 			(effects
 				(font
@@ -7613,7 +7613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 77.47 116.84 0)
 			(effects
 				(font
@@ -8934,7 +8934,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 45.72 38.1 0)
 			(effects
 				(font
