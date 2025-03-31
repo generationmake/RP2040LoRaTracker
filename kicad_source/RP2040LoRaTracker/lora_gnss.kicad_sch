@@ -2071,6 +2071,231 @@
 				)
 			)
 		)
+		(symbol "Sensor:BME280"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BME280"
+				(at 7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
+				(at 38.1 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Bosch pressure humidity temperature environment environmental measurement digital"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*LGA*2.5x2.5mm*P0.65mm*Clockwise*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BME280_0_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "BME280_1_1"
+				(pin power_in line
+					(at -2.54 -15.24 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 15.24 270)
+					(length 5.08)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -15.24 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 15.24 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -2492,6 +2717,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 111.76) (xy 219.71 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1818da02-89e4-483a-909e-7e68fb2c9398")
+	)
+	(wire
+		(pts
 			(xy 118.11 74.93) (xy 118.11 85.09)
 		)
 		(stroke
@@ -2509,6 +2744,16 @@
 			(type default)
 		)
 		(uuid "244cedda-9e49-4f7b-99a1-6bf59d10015e")
+	)
+	(wire
+		(pts
+			(xy 237.49 130.81) (xy 266.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c071536-932d-452e-ac7c-c52d6b9a2f41")
 	)
 	(wire
 		(pts
@@ -2569,6 +2814,26 @@
 			(type default)
 		)
 		(uuid "39300038-cf7b-44fc-8259-d928ffb69cca")
+	)
+	(wire
+		(pts
+			(xy 240.03 120.65) (xy 240.03 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48820de9-339e-4ad4-8960-aa574f0927cd")
+	)
+	(wire
+		(pts
+			(xy 224.79 111.76) (xy 224.79 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4acf78a0-af1d-467d-855b-1628ead6a2df")
 	)
 	(wire
 		(pts
@@ -2682,6 +2947,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 127) (xy 194.31 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e669b95-22e9-4301-9808-83099e2a3745")
+	)
+	(wire
+		(pts
 			(xy 184.15 76.2) (xy 195.58 76.2)
 		)
 		(stroke
@@ -2709,6 +2984,16 @@
 			(type default)
 		)
 		(uuid "8d3d4ff8-0e29-455c-ac9f-bf517916480b")
+	)
+	(wire
+		(pts
+			(xy 243.84 135.89) (xy 243.84 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "906f6484-e76c-4366-8f23-1a002ead069c")
 	)
 	(wire
 		(pts
@@ -2769,6 +3054,16 @@
 			(type default)
 		)
 		(uuid "a7f777c4-dd2a-42e3-91ea-aea503c177fe")
+	)
+	(wire
+		(pts
+			(xy 237.49 120.65) (xy 240.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add7e31c-6872-4aea-9e54-fa8ccaf85b0f")
 	)
 	(wire
 		(pts
@@ -2839,6 +3134,16 @@
 			(type default)
 		)
 		(uuid "c0b9b9bc-30cf-4bf9-9e9d-545c940c077f")
+	)
+	(wire
+		(pts
+			(xy 237.49 135.89) (xy 243.84 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d1fd67-99a4-4e1d-9a7a-29eea4e35162")
 	)
 	(wire
 		(pts
@@ -2942,6 +3247,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 133.35) (xy 194.31 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd998cd1-f3a4-418c-9b0e-4d78e906186a")
+	)
+	(wire
+		(pts
 			(xy 181.61 83.82) (xy 195.58 83.82)
 		)
 		(stroke
@@ -2949,6 +3264,16 @@
 			(type default)
 		)
 		(uuid "dfdb7f88-f7c2-4414-8634-7e6d30c97e95")
+	)
+	(wire
+		(pts
+			(xy 219.71 143.51) (xy 219.71 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4242a7d-e1eb-400a-a84d-db1754e5309a")
 	)
 	(wire
 		(pts
@@ -3012,6 +3337,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 125.73) (xy 266.7 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9aad1d0-e2a0-431d-9669-fae4e166de71")
+	)
+	(wire
+		(pts
 			(xy 139.7 85.09) (xy 139.7 72.39)
 		)
 		(stroke
@@ -3019,6 +3354,16 @@
 			(type default)
 		)
 		(uuid "fa76ed8b-c29f-4591-a01c-e450c1fa535d")
+	)
+	(wire
+		(pts
+			(xy 224.79 143.51) (xy 224.79 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba9108d-64ad-4ce1-8dc1-7dadea7639b8")
 	)
 	(wire
 		(pts
@@ -3160,6 +3505,16 @@
 		)
 		(uuid "74cda680-36e9-461f-ac03-1fddee17d9c9")
 	)
+	(label "I2C_SCL"
+		(at 248.92 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90172657-f198-4ba3-9fe2-61d87a7d6585")
+	)
 	(label "VCC_RF"
 		(at 99.06 62.23 0)
 		(effects
@@ -3189,6 +3544,16 @@
 			(justify left bottom)
 		)
 		(uuid "b2f99539-4fba-4c6a-b863-b401429aff1b")
+	)
+	(label "I2C_SDA"
+		(at 248.92 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e62a878d-38bc-4eb5-8297-9e66f1a66b89")
 	)
 	(label "LORA_RESET"
 		(at 182.88 83.82 0)
@@ -3304,6 +3669,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 266.7 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a11bb7b2-00b7-4d72-972f-2a553bb27102")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.2447 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 266.7 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bab9b19a-a69c-4cd7-b120-a32a3584678e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.4165 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3536,6 +3945,138 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 224.79 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cab1d74-87f8-4b44-b163-1254d3f81ee4")
+		(property "Reference" "#PWR67"
+			(at 224.79 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fda7fee-cd49-4a3b-850b-f24046150832")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 243.84 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1138b1e6-f72f-44c7-91e4-564c92b0de6f")
+		(property "Reference" "#PWR71"
+			(at 243.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 243.84 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 243.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76e9cfb3-cb02-4c23-a458-7c647c1b7655")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 90.17 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3595,6 +4136,138 @@
 			(project ""
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
 					(reference "#PWR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 219.71 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c802c14-8c54-43dd-8207-5f72d3b133ca")
+		(property "Reference" "#PWR68"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 219.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68bdf2a2-2928-4428-ba45-d0607183bb8c")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28e6b4ee-2157-43cb-be67-da40ce423847")
+		(property "Reference" "#PWR65"
+			(at 194.31 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cdaa416-55ad-4132-9634-3e26751743f3")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR65")
 					(unit 1)
 				)
 			)
@@ -3793,6 +4466,72 @@
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
 					(reference "#PWR52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 224.79 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39a98569-30cb-4fd3-81b9-f9f4ad30a2d1")
+		(property "Reference" "#PWR69"
+			(at 224.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 224.79 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 224.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0c8ba18-6a15-45aa-9471-98942e888471")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR69")
 					(unit 1)
 				)
 			)
@@ -4495,6 +5234,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 240.03 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6233581e-e280-45bc-b1e7-d74caf6a95fc")
+		(property "Reference" "#PWR70"
+			(at 240.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "506c077c-e12e-4e90-aaf2-f3e8291c665d")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 129.54 92.71 90)
 		(unit 1)
@@ -4831,6 +5636,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor:BME280")
+		(at 222.25 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82b1131b-1ec2-44de-8591-42466daf56d6")
+		(property "Reference" "U6"
+			(at 210.82 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BME280"
+			(at 210.82 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
+			(at 260.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
+			(at 222.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
+			(at 222.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4aa76efc-4ee3-4711-bf95-0eeee08d765b")
+		)
+		(pin "8"
+			(uuid "7f160cf0-f009-4d1d-9fdd-436a1fe8de22")
+		)
+		(pin "1"
+			(uuid "c9e0e1ee-1949-4a0a-b1d7-6ef021999d3f")
+		)
+		(pin "7"
+			(uuid "2c69cfee-3ff1-486c-aba4-03c18ab4d4f7")
+		)
+		(pin "3"
+			(uuid "47076dc3-26ec-4243-8bd4-fd240aebdadb")
+		)
+		(pin "2"
+			(uuid "6bacc8a3-8c00-435f-adb6-25ee7dc95ef0")
+		)
+		(pin "5"
+			(uuid "8a9ea145-f8ef-4320-9043-fba735a77b0f")
+		)
+		(pin "4"
+			(uuid "4878d9a5-7b66-4665-b5c1-89e245bf112c")
+		)
+		(instances
+			(project ""
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 67.31 26.67 0)
 		(unit 1)
@@ -4891,6 +5784,72 @@
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
 					(reference "#PWR47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 194.31 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88adc4d2-82e9-4eda-aa1c-a3018ac0276f")
+		(property "Reference" "#PWR64"
+			(at 194.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 194.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 194.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e978666b-d8ba-4b1c-93e7-ce32e605d605")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR64")
 					(unit 1)
 				)
 			)
@@ -5431,6 +6390,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 219.71 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b84b0228-fe62-4d03-b62b-23384857dfe6")
+		(property "Reference" "#PWR66"
+			(at 219.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e42f557-8d0c-40fd-9aef-c2b95281eddd")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 67.31 30.48 0)
 		(unit 1)
@@ -5495,6 +6520,76 @@
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 194.31 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c42acfec-5da0-42d7-b17c-50941275b0b5")
+		(property "Reference" "C20"
+			(at 196.85 129.5462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 196.85 132.0862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 194.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 194.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77c8baa8-3b58-41e7-ac32-30e3a50996ee")
+		)
+		(pin "1"
+			(uuid "8f055f8b-7108-456b-af63-e4e2e2e6b738")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "C20")
 					(unit 1)
 				)
 			)

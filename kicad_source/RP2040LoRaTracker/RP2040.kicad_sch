@@ -366,6 +366,242 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_MountingPin"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_MountingPin_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112) (xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2826,6 +3062,12 @@
 		(uuid "29291ac8-fb69-432b-96f5-a0e8376e86ba")
 	)
 	(junction
+		(at 238.76 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a949af6-3193-40c9-8d29-8422e36c93b7")
+	)
+	(junction
 		(at 64.77 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2842,6 +3084,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c95f8ffd-a220-4c6d-bb93-e16470fba847")
+	)
+	(junction
+		(at 231.14 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc1d8226-d308-462f-9b9b-011ff98494e3")
 	)
 	(junction
 		(at 243.84 29.21)
@@ -2921,6 +3169,26 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 85.09) (xy 231.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9c80d5-21dc-49ff-9a79-8c564b183450")
+	)
+	(wire
+		(pts
+			(xy 238.76 85.09) (xy 238.76 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8012cd-ff73-4d8a-8761-41d851ae11ef")
+	)
+	(wire
+		(pts
 			(xy 21.59 86.36) (xy 21.59 87.63)
 		)
 		(stroke
@@ -2961,6 +3229,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 81.28) (xy 248.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "123a0806-5710-432e-b426-a71bd2a9f17f")
+	)
+	(wire
+		(pts
 			(xy 21.59 101.6) (xy 21.59 102.87)
 		)
 		(stroke
@@ -2978,6 +3256,16 @@
 			(type default)
 		)
 		(uuid "1d416256-fc8e-4a5f-8655-09e4e7b260e8")
+	)
+	(wire
+		(pts
+			(xy 231.14 78.74) (xy 231.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e68d6f0-0398-4343-9560-d0b6c7834bd1")
 	)
 	(wire
 		(pts
@@ -3048,6 +3336,16 @@
 			(type default)
 		)
 		(uuid "2ebd8782-01c0-4728-8295-b973b9b69162")
+	)
+	(wire
+		(pts
+			(xy 246.38 83.82) (xy 246.38 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2efa333e-0f96-4459-82d2-4d8c3ce91a57")
 	)
 	(wire
 		(pts
@@ -3141,6 +3439,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 86.36) (xy 231.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4260c0f6-14f0-400d-ad16-bcf382dc9ad3")
+	)
+	(wire
+		(pts
 			(xy 85.09 66.04) (xy 86.36 66.04)
 		)
 		(stroke
@@ -3148,6 +3456,16 @@
 			(type default)
 		)
 		(uuid "466137f5-3755-41ca-a01a-83c065e8ea1b")
+	)
+	(wire
+		(pts
+			(xy 231.14 86.36) (xy 251.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d00e0b-76e7-4eda-920b-aecb3e70da1b")
 	)
 	(wire
 		(pts
@@ -3461,6 +3779,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 88.9) (xy 251.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2eb439-34d9-42cc-8051-dfc7782c2639")
+	)
+	(wire
+		(pts
 			(xy 93.98 66.04) (xy 91.44 66.04)
 		)
 		(stroke
@@ -3498,6 +3826,16 @@
 			(type default)
 		)
 		(uuid "9eb69e33-8f13-45e0-bd63-b3fa0e7eaff0")
+	)
+	(wire
+		(pts
+			(xy 218.44 88.9) (xy 238.76 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd5e8c5-b246-46c5-b887-3dfedeb171cd")
 	)
 	(wire
 		(pts
@@ -3558,6 +3896,16 @@
 			(type default)
 		)
 		(uuid "a5c493cc-f649-469e-b771-adba62f91430")
+	)
+	(wire
+		(pts
+			(xy 251.46 83.82) (xy 246.38 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b3092f-d1e0-48b3-92fc-9a25c176191b")
 	)
 	(wire
 		(pts
@@ -3841,6 +4189,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 81.28) (xy 248.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17e3e7b-5504-4e88-9997-04e12002a0fb")
+	)
+	(wire
+		(pts
 			(xy 64.77 81.28) (xy 59.69 81.28)
 		)
 		(stroke
@@ -3921,6 +4279,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 78.74) (xy 238.76 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5debfff-177e-4fe4-8d0c-f3f58efb4e97")
+	)
+	(wire
+		(pts
 			(xy 198.12 66.04) (xy 213.36 66.04)
 		)
 		(stroke
@@ -3958,6 +4326,16 @@
 			)
 		)
 		(uuid "1269a97c-6e83-473e-b029-6ccad744a21a")
+	)
+	(text "quiic connector"
+		(exclude_from_sim no)
+		(at 259.08 75.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8fd90a97-2119-4146-abd9-809bd06fd4a1")
 	)
 	(label "LORA_CS"
 		(at 165.1 86.36 0)
@@ -4088,6 +4466,16 @@
 			(justify left bottom)
 		)
 		(uuid "3bba8274-8baa-4e20-8704-8e7f04e474ef")
+	)
+	(label "I2C_SCL"
+		(at 219.71 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3eef525b-554a-412e-b3f9-a5a8227f68bb")
 	)
 	(label "USB_DP"
 		(at 41.91 151.13 0)
@@ -4259,6 +4647,16 @@
 		)
 		(uuid "f09423ea-3335-4d5c-8acb-b567385690b8")
 	)
+	(label "I2C_SDA"
+		(at 219.71 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f12cf531-32cc-4f3b-9da6-7054d0501df6")
+	)
 	(label "D1_R"
 		(at 231.14 137.16 0)
 		(effects
@@ -4411,6 +4809,28 @@
 			)
 		)
 	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 179.07 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89125e1a-3256-44f4-a5f9-631029186473")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.7865 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_SCK"
 		(shape output)
 		(at 179.07 106.68 0)
@@ -4446,6 +4866,28 @@
 		(uuid "eb92363c-588e-4677-9561-caacab47cf41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.5499 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape output)
+		(at 179.07 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3b30eff-1d30-4c9b-9dad-5be7833f2bd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.6147 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,6 +4958,76 @@
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
 					(reference "#PWR34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 231.14 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d53b51-40db-4a9b-9364-58809c0292bf")
+		(property "Reference" "R13"
+			(at 233.68 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 233.68 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 231.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 231.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "393b1e4f-f3bf-4a06-ad00-dcfaf56ee0ac")
+		)
+		(pin "2"
+			(uuid "b505ebc0-437c-4b81-9b97-7067b4473b96")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5757,6 +6269,72 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 246.38 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "562e4c7f-095d-4d05-ace0-f0d2f775495b")
+		(property "Reference" "#PWR73"
+			(at 246.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 246.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 246.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe4dc3a2-866d-4732-89bf-5def6771c394")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
+					(reference "#PWR73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 162.56 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5893,6 +6471,72 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 231.14 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f8d20bd-28b7-405a-9ec2-9694b7f07aac")
+		(property "Reference" "#PWR75"
+			(at 231.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 231.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b92d2f93-129d-4875-976d-87abf5e4408d")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
+					(reference "#PWR75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 138.43 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5952,6 +6596,85 @@
 			(project ""
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
 					(reference "#PWR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
+		(at 256.54 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "603025e2-e200-4a73-b7e4-6af1299833d3")
+		(property "Reference" "J2"
+			(at 259.08 84.1755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BM04B-SRSS-TB"
+			(at 259.08 86.7155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 256.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 256.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ead53a7f-2275-4fc5-8825-e62dd5bcc058")
+		)
+		(pin "MP"
+			(uuid "f5b01e28-c407-41bd-9ee0-61165cb34230")
+		)
+		(pin "1"
+			(uuid "8f8ea34d-dcfb-4e06-ae60-57c641410522")
+		)
+		(pin "2"
+			(uuid "5eb1b749-a38f-457e-af58-55661c12ade6")
+		)
+		(pin "3"
+			(uuid "1d928344-8cef-4a91-8e23-9ca240698f91")
+		)
+		(instances
+			(project ""
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6040,6 +6763,76 @@
 			(project ""
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 238.76 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64e4e8e5-e74d-449d-9cf4-43e7992c880a")
+		(property "Reference" "R12"
+			(at 241.3 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 241.3 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd8b58e4-b28e-42cd-9dea-2cab1d8f71c9")
+		)
+		(pin "2"
+			(uuid "4d8a460f-2c06-4f17-8449-ee8354fc1ad6")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6642,6 +7435,72 @@
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
 					(reference "#PWR19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd080d7-d918-4202-bf0d-8fb20c2faa37")
+		(property "Reference" "#PWR72"
+			(at 248.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38d8665e-b5dc-403e-baba-28f7a29188df")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
+					(reference "#PWR72")
 					(unit 1)
 				)
 			)
@@ -9169,6 +10028,72 @@
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
 					(reference "#PWR8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 238.76 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f997b0ef-e862-47a4-916b-79972dafe477")
+		(property "Reference" "#PWR74"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 238.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 238.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58f1dd7f-0aa7-40f6-8836-2ca03c1b9b32")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
+					(reference "#PWR74")
 					(unit 1)
 				)
 			)
