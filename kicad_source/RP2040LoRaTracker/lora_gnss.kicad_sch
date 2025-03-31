@@ -1189,6 +1189,146 @@
 				)
 			)
 		)
+		(symbol "Power_Supervisor:TPS3839DBZ"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TPS3839DBZ"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "150-nA, Ultralow Power, Supply Voltage Monitor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "supply voltage supervisor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS3839DBZ_0_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS3839DBZ_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "RF_GPS:NEO-M8N"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2071,6 +2211,179 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:TPS73630DBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS73630DBV"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps736.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cap free NMOS 400mA Low Drop 3.0V Regulator, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Cap free Fixed LDO 400mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS73630DBV_0_1"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS73630DBV_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "NR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Sensor:BME280"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2634,6 +2947,12 @@
 		)
 	)
 	(junction
+		(at 130.81 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a0517e8-e163-4d10-967a-35fcb2eee918")
+	)
+	(junction
 		(at 118.11 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2676,6 +2995,10 @@
 		(uuid "3f165f13-fd40-469d-bd1a-8574a3f393dd")
 	)
 	(no_connect
+		(at 120.65 180.34)
+		(uuid "445284d8-9065-47b6-89ea-26427c36d33f")
+	)
+	(no_connect
 		(at 72.39 72.39)
 		(uuid "56b9099e-4392-4b56-8725-dbb4047d291f")
 	)
@@ -2704,6 +3027,16 @@
 			(type default)
 		)
 		(uuid "01615584-4677-4ff5-9337-d4930d505411")
+	)
+	(wire
+		(pts
+			(xy 80.01 180.34) (xy 100.33 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0947a76c-34ca-4973-b4bb-58f3ce1107b5")
 	)
 	(wire
 		(pts
@@ -2744,6 +3077,16 @@
 			(type default)
 		)
 		(uuid "244cedda-9e49-4f7b-99a1-6bf59d10015e")
+	)
+	(wire
+		(pts
+			(xy 120.65 177.8) (xy 130.81 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdcdd0c-53bb-48bd-bf14-f1de37df7cf8")
 	)
 	(wire
 		(pts
@@ -2867,6 +3210,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 171.45) (xy 69.85 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e30f65c-f5ed-4741-b15a-f92a4c676b8c")
+	)
+	(wire
+		(pts
 			(xy 118.11 62.23) (xy 118.11 67.31)
 		)
 		(stroke
@@ -2967,6 +3320,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 177.8) (xy 44.45 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85350356-bb5b-472d-8b41-d04043547bcf")
+	)
+	(wire
+		(pts
 			(xy 67.31 33.02) (xy 67.31 34.29)
 		)
 		(stroke
@@ -2997,6 +3360,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 187.96) (xy 69.85 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95616d03-a392-4923-9c65-c95dda0bcca0")
+	)
+	(wire
+		(pts
 			(xy 195.58 38.1) (xy 195.58 39.37)
 		)
 		(stroke
@@ -3004,6 +3377,16 @@
 			(type default)
 		)
 		(uuid "95dc2110-cd59-4b80-b6b4-79650563e255")
+	)
+	(wire
+		(pts
+			(xy 44.45 184.15) (xy 44.45 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bbe72ec-c6db-414c-a7bf-b3ec9e16858a")
 	)
 	(wire
 		(pts
@@ -3047,6 +3430,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 187.96) (xy 110.49 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64b3dcb-82b6-4d95-9892-489f59dd6df1")
+	)
+	(wire
+		(pts
 			(xy 52.07 130.81) (xy 54.61 130.81)
 		)
 		(stroke
@@ -3057,6 +3450,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 177.8) (xy 130.81 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0b580d-226c-4f42-a5d2-b52c42e7ae65")
+	)
+	(wire
+		(pts
 			(xy 237.49 120.65) (xy 240.03 120.65)
 		)
 		(stroke
@@ -3064,6 +3467,16 @@
 			(type default)
 		)
 		(uuid "add7e31c-6872-4aea-9e54-fa8ccaf85b0f")
+	)
+	(wire
+		(pts
+			(xy 97.79 177.8) (xy 97.79 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affea5a9-b624-4539-85e3-f0b9ff40bfc4")
 	)
 	(wire
 		(pts
@@ -3134,6 +3547,16 @@
 			(type default)
 		)
 		(uuid "c0b9b9bc-30cf-4bf9-9e9d-545c940c077f")
+	)
+	(wire
+		(pts
+			(xy 130.81 176.53) (xy 130.81 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15b5bb3-8aa6-4b65-8357-ecb077ed0e1d")
 	)
 	(wire
 		(pts
@@ -3257,6 +3680,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 177.8) (xy 100.33 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfcce8a4-ae5a-4cfe-8488-d58bb60dc979")
+	)
+	(wire
+		(pts
 			(xy 181.61 83.82) (xy 195.58 83.82)
 		)
 		(stroke
@@ -3284,6 +3717,16 @@
 			(type default)
 		)
 		(uuid "e68b81e4-8fe2-4a43-ad7c-9c8632617966")
+	)
+	(wire
+		(pts
+			(xy 130.81 184.15) (xy 130.81 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69d69bc-f90a-4b5a-8f42-de2c89de7d53")
 	)
 	(wire
 		(pts
@@ -4010,6 +4453,150 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 110.49 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d2cff35-6699-4a9b-8070-0334a5f627c0")
+		(property "Reference" "#PWR82"
+			(at 110.49 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27e8a0bf-1091-4fd1-be17-1d7c34a08768")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TPS73630DBV")
+		(at 110.49 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10839a70-8923-4aa3-bf32-4099f9a07edc")
+		(property "Reference" "U8"
+			(at 110.49 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS73630DBV"
+			(at 110.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 110.49 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps736.pdf"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cap free NMOS 400mA Low Drop 3.0V Regulator, SOT-23-5"
+			(at 110.49 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "14376aab-c4eb-4a23-b271-ae2fcdb62e1e")
+		)
+		(pin "4"
+			(uuid "29ee6200-77d3-4d4d-842c-901e15884c48")
+		)
+		(pin "1"
+			(uuid "30f63479-fee0-4fdc-b0ef-738221d2f2d2")
+		)
+		(pin "2"
+			(uuid "a17dde3a-bb93-4536-ad56-3f67e6889806")
+		)
+		(pin "3"
+			(uuid "f0dc4316-3f03-44f4-84f8-5c9fa5523d49")
+		)
+		(instances
+			(project ""
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 243.84 118.11 0)
 		(unit 1)
@@ -4274,6 +4861,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Supervisor:TPS3839DBZ")
+		(at 69.85 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29771dbc-d783-46ca-aa7a-6df378087fb6")
+		(property "Reference" "U7"
+			(at 66.04 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPS3839DBZ"
+			(at 66.04 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 69.85 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf"
+			(at 69.85 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150-nA, Ultralow Power, Supply Voltage Monitor, SOT-23"
+			(at 69.85 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50bc32c1-796d-43ea-926f-954a1f2515f0")
+		)
+		(pin "3"
+			(uuid "8c88edfd-3665-4917-af43-d86f023cb9dc")
+		)
+		(pin "2"
+			(uuid "bdef07b7-f8b9-46e9-901a-85b1b34bcba9")
+		)
+		(instances
+			(project ""
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 29.21 133.35 0)
 		(unit 1)
@@ -4406,6 +5066,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 97.79 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e54c1cc-2165-4029-b0a9-0f6235cc7404")
+		(property "Reference" "#PWR81"
+			(at 97.79 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 97.79 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 97.79 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae9bb57a-f5d2-42bb-9192-9bf71d01f30c")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 209.55 39.37 0)
 		(unit 1)
@@ -4532,6 +5258,72 @@
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
 					(reference "#PWR69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 44.45 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c40c92d-f7f0-43aa-a71b-a4818ab2cc53")
+		(property "Reference" "#PWR76"
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 44.45 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 44.45 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8448959-6bc5-4971-9b96-d96a775cdd19")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR76")
 					(unit 1)
 				)
 			)
@@ -5922,6 +6714,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 44.45 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c04a684-0345-4cc7-bac9-820594ac99ee")
+		(property "Reference" "C21"
+			(at 46.99 180.3462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 uF"
+			(at 46.99 182.8862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b44d2544-8ed2-4050-b6b1-512a9294d028")
+		)
+		(pin "1"
+			(uuid "9418f42b-a5b3-44a8-b32b-ae2b7c4277fb")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 69.85 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f616017-d677-4277-b9a5-248c37224c3f")
+		(property "Reference" "#PWR80"
+			(at 69.85 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 69.85 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 69.85 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da1cf511-6a5c-4f4f-80dc-3eb2eaf3608e")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 195.58 31.75 0)
 		(unit 1)
@@ -6048,6 +6976,72 @@
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
 					(reference "#PWR53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f3840fe-8d5b-4066-a8a8-59a99dec757c")
+		(property "Reference" "#PWR79"
+			(at 130.81 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cf44e49-f7f9-4318-902f-8382682621ae")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR79")
 					(unit 1)
 				)
 			)
@@ -6390,6 +7384,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 130.81 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b77b8fc2-d9c6-4b4a-bd1d-6e937f134225")
+		(property "Reference" "#PWR78"
+			(at 130.81 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 130.81 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdf984f1-602e-471a-b446-a23159b43591")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 219.71 144.78 0)
 		(unit 1)
@@ -6596,6 +7656,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 44.45 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c48d56ad-97b0-4c1e-86dc-c7e1b3961d51")
+		(property "Reference" "#PWR77"
+			(at 44.45 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa086cd2-2460-4175-b933-4fb18f1e8c44")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 209.55 31.75 0)
 		(unit 1)
@@ -6768,6 +7894,142 @@
 			(project ""
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 130.81 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc00a07e-5eae-4bdb-b9c9-6dbe9963d5f5")
+		(property "Reference" "C22"
+			(at 133.35 180.3462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 uF"
+			(at 133.35 182.8862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 130.81 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 130.81 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e9fa94b-cd15-4439-b818-20cfabb8525f")
+		)
+		(pin "1"
+			(uuid "8bca103e-28f9-44a0-b1a0-1ddb2f93d68d")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d196f251-9a6e-4e98-adde-29d8cf2f7d36")
+		(property "Reference" "#PWR83"
+			(at 69.85 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f6f4811-8875-4606-a73d-5927433d5afc")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR83")
 					(unit 1)
 				)
 			)
