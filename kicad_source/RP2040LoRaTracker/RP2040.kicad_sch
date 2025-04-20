@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RP2040LoRaTracker")
-		(date "2025-04-01")
+		(date "2025-04-20")
 		(rev "0.1")
 		(company "generationmake")
 	)
@@ -3224,8 +3224,92 @@
 		(uuid "fbe3fe00-6a48-449d-bfe1-98633c516cea")
 	)
 	(no_connect
+		(at 161.29 76.2)
+		(uuid "0e467ad0-f91c-4879-b702-ddcfdd7db1e2")
+	)
+	(no_connect
+		(at 161.29 96.52)
+		(uuid "16c8d188-5d23-43a2-9896-401dbc6aeb10")
+	)
+	(no_connect
+		(at 161.29 137.16)
+		(uuid "19b009ae-3cf6-4ec9-885b-501fbba38c1c")
+	)
+	(no_connect
+		(at 161.29 121.92)
+		(uuid "1b3086c0-bc18-4c7c-a377-7f7321b330b4")
+	)
+	(no_connect
+		(at 161.29 93.98)
+		(uuid "2b9d12d7-0ca6-4fd9-9fbb-6076851a6d91")
+	)
+	(no_connect
 		(at 38.1 156.21)
 		(uuid "2cc3f2d3-de52-42d3-ba6d-6ba6e85c5905")
+	)
+	(no_connect
+		(at 110.49 127)
+		(uuid "3e6cc21d-c285-4e39-bf84-0bedf6ae7cd2")
+	)
+	(no_connect
+		(at 161.29 129.54)
+		(uuid "60674c28-e7bb-49e8-875c-2ba8ec57375f")
+	)
+	(no_connect
+		(at 161.29 132.08)
+		(uuid "64c16b84-18ee-4178-a89e-043ec0e38f96")
+	)
+	(no_connect
+		(at 161.29 114.3)
+		(uuid "6f8a0090-f447-44b8-9015-7d9751b18d1f")
+	)
+	(no_connect
+		(at 110.49 129.54)
+		(uuid "71a8a43d-a968-4482-b29a-811e1238885c")
+	)
+	(no_connect
+		(at 161.29 68.58)
+		(uuid "7ed11d19-642d-4383-a6d8-ec986eab683a")
+	)
+	(no_connect
+		(at 161.29 104.14)
+		(uuid "7f2ecab8-5bae-4a0c-ac10-462839eac9bd")
+	)
+	(no_connect
+		(at 161.29 81.28)
+		(uuid "8abe7e0e-6865-4eb9-a5e5-c167329bb4c9")
+	)
+	(no_connect
+		(at 161.29 91.44)
+		(uuid "b12997da-8bb9-4fde-a4bd-84605385b868")
+	)
+	(no_connect
+		(at 161.29 134.62)
+		(uuid "da65b9f3-4555-48bd-8982-6eb311dc2c31")
+	)
+	(no_connect
+		(at 161.29 116.84)
+		(uuid "dd403ce5-96f3-4686-93d1-767987b3eb93")
+	)
+	(no_connect
+		(at 161.29 119.38)
+		(uuid "efd2277e-6db1-47ff-b555-d8e9ea09a216")
+	)
+	(no_connect
+		(at 161.29 78.74)
+		(uuid "f129e9f9-596a-49c6-bc1f-dd5dacc41775")
+	)
+	(no_connect
+		(at 161.29 111.76)
+		(uuid "f708887e-4666-4578-b102-b763443b0ef5")
+	)
+	(no_connect
+		(at 161.29 99.06)
+		(uuid "fb81203d-705f-49c1-ab65-7894b9d561e5")
+	)
+	(no_connect
+		(at 161.29 88.9)
+		(uuid "fe61854a-e251-49ec-b72a-506350d63c7a")
 	)
 	(wire
 		(pts
@@ -4476,6 +4560,36 @@
 			)
 		)
 		(uuid "8fd90a97-2119-4146-abd9-809bd06fd4a1")
+	)
+	(text "BOOT"
+		(exclude_from_sim no)
+		(at 54.356 52.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d2a4c60-81dc-441e-a1ac-a232f7c1d334")
+	)
+	(text "0R"
+		(exclude_from_sim no)
+		(at 195.58 69.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea4ee9ac-1f2b-4e51-877c-71c95a2a0bec")
+	)
+	(text "RESET"
+		(exclude_from_sim no)
+		(at 54.61 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4ee8dc3-1d1d-431d-93a8-43ec17a6943f")
 	)
 	(label "LORA_CS"
 		(at 165.1 86.36 0)
@@ -8884,7 +8998,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "DNI"
 			(at 195.58 63.5 90)
 			(effects
 				(font

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RP2040LoRaTracker")
-		(date "2025-04-01")
+		(date "2025-04-20")
 		(rev "0.1")
 		(company "generationmake")
 	)
@@ -4151,6 +4151,10 @@
 		(uuid "28e34837-8bb2-4824-8bb0-5b94819fd7be")
 	)
 	(no_connect
+		(at 85.09 50.8)
+		(uuid "327865c1-e052-4587-90c3-369e9d2df93d")
+	)
+	(no_connect
 		(at 215.9 76.2)
 		(uuid "3bd65415-ed03-4be1-a5b4-b8793e6b1527")
 	)
@@ -5235,6 +5239,16 @@
 			(type default)
 		)
 		(uuid "ff630f4c-b6ae-4d13-9566-4b96e91e3f3f")
+	)
+	(text "changes baud rate on NEO-6M"
+		(exclude_from_sim no)
+		(at 125.73 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "174f9104-7ac3-4432-b862-072f2c3051a0")
 	)
 	(text "u-Blox NEO-6M or NEO-M8N GNSS receiver"
 		(exclude_from_sim no)
@@ -7021,7 +7035,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "DNI"
 			(at 110.49 90.1699 0)
 			(effects
 				(font

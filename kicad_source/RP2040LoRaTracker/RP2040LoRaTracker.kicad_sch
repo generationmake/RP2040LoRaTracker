@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RP2040LoRaTracker")
-		(date "2025-04-01")
+		(date "2025-04-20")
 		(rev "0.1")
 		(company "generationmake")
 	)
