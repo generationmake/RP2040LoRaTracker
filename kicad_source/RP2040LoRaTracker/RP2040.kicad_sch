@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RP2040LoRaTracker")
-		(date "2025-04-20")
+		(date "2025-05-04")
 		(rev "0.1")
 		(company "generationmake")
 	)
@@ -4550,6 +4550,16 @@
 			)
 		)
 		(uuid "1269a97c-6e83-473e-b029-6ccad744a21a")
+	)
+	(text "or IS25LP016D"
+		(exclude_from_sim no)
+		(at 32.258 90.932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45bf1ff5-82f4-4aca-8c86-cee3fd4ba6c3")
 	)
 	(text "quiic connector"
 		(exclude_from_sim no)
