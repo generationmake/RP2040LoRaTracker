@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RP2040LoRaTracker")
-		(date "2025-04-20")
+		(date "2025-05-04")
 		(rev "0.1")
 		(company "generationmake")
 	)
@@ -5260,6 +5260,16 @@
 		)
 		(uuid "18f37da4-0b7e-4976-a44d-1921584fa51c")
 	)
+	(text "charging current set to 500 mA (R15 = 2k)"
+		(exclude_from_sim no)
+		(at 58.674 127.508 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5451fc40-815b-4fd2-b416-ce8a6582ef2b")
+	)
 	(text "Bosch BME280 environmental sensor"
 		(exclude_from_sim no)
 		(at 255.778 107.188 0)
@@ -7327,7 +7337,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2k"
 			(at 45.72 154.9399 0)
 			(effects
 				(font
