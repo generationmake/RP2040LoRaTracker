@@ -548,7 +548,7 @@
       "group_symbols": true,
       "name": "Grouped By Value",
       "sort_asc": true,
-      "sort_field": "Referenz"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
