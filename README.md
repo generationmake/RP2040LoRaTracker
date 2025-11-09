@@ -47,6 +47,12 @@ push button to set RP2040 to boot mode.
 
 sliding switch to power board from battery.
 
+## enclosure
+
+There exists a 3D printable enclosure to encapsulate the PCB.
+
+![RP2040LoRaTracker enclosure](docs/images/RP2040LoRaTracker_enclosure.png)
+
 ## PCB
 
 ### Top
