@@ -3,10 +3,10 @@ name: General Formatting Checks
 on:
   pull_request:
     paths-ignore:
-      - '*.step'
+      - '**.step'
   push:
     paths-ignore:
-      - '*.step'
+      - '**.step'
 
 jobs:
   general-formatting-checks:
