@@ -2,6 +2,8 @@ name: General Formatting Checks
 
 on:
   pull_request:
+    paths-ignore:
+      - '*.step'
   push:
     paths-ignore:
       - '*.step'
