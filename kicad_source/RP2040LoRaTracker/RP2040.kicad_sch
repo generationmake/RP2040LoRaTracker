@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "RP2040LoRaTracker")
-		(date "2025-05-04")
-		(rev "0.1")
+		(date "2026-05-30")
+		(rev "0.2")
 		(company "generationmake")
 	)
 	(lib_symbols
@@ -2952,6 +2952,126 @@
 				)
 			)
 		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3188,6 +3308,12 @@
 		(uuid "3a949af6-3193-40c9-8d29-8422e36c93b7")
 	)
 	(junction
+		(at 186.69 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79789632-0c44-42c0-80d1-649d407a7783")
+	)
+	(junction
 		(at 64.77 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3250,10 +3376,6 @@
 	(no_connect
 		(at 110.49 127)
 		(uuid "3e6cc21d-c285-4e39-bf84-0bedf6ae7cd2")
-	)
-	(no_connect
-		(at 161.29 129.54)
-		(uuid "60674c28-e7bb-49e8-875c-2ba8ec57375f")
 	)
 	(no_connect
 		(at 161.29 132.08)
@@ -3370,6 +3492,16 @@
 			(type default)
 		)
 		(uuid "0549087f-47ff-4813-a785-05c59aa91624")
+	)
+	(wire
+		(pts
+			(xy 161.29 129.54) (xy 182.88 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07bd3348-303f-43fc-a447-78abb2f5fed9")
 	)
 	(wire
 		(pts
@@ -3733,6 +3865,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 134.62) (xy 186.69 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a32378c-540f-456e-8b6f-200728f46a84")
+	)
+	(wire
+		(pts
 			(xy 143.51 52.07) (xy 143.51 53.34)
 		)
 		(stroke
@@ -4093,6 +4235,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 133.35) (xy 186.69 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3aba823-7a2f-41a8-b2b9-e5d558299cc7")
+	)
+	(wire
+		(pts
 			(xy 161.29 86.36) (xy 179.07 86.36)
 		)
 		(stroke
@@ -4253,6 +4405,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 129.54) (xy 182.88 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc479153-a3ee-44e1-8580-20e0d555fd04")
+	)
+	(wire
+		(pts
 			(xy 110.49 60.96) (xy 96.52 60.96)
 		)
 		(stroke
@@ -4260,6 +4422,16 @@
 			(type default)
 		)
 		(uuid "c195e93f-4765-4323-b328-c3ec3331033f")
+	)
+	(wire
+		(pts
+			(xy 186.69 142.24) (xy 186.69 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c204fafa-af22-487a-99e0-56de1b449df2")
 	)
 	(wire
 		(pts
@@ -4363,6 +4535,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 134.62) (xy 186.69 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de49e3e1-7ad7-4723-99a8-c35082d1c2ee")
+	)
+	(wire
+		(pts
 			(xy 148.59 20.32) (xy 148.59 21.59)
 		)
 		(stroke
@@ -4420,6 +4602,16 @@
 			(type default)
 		)
 		(uuid "e25dc6d4-eaee-4199-b88a-59e5008bbe4d")
+	)
+	(wire
+		(pts
+			(xy 186.69 127) (xy 186.69 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7cee3d1-1239-4847-be4d-b651477bc70d")
 	)
 	(wire
 		(pts
@@ -4840,6 +5032,16 @@
 			(justify left bottom)
 		)
 		(uuid "b00c6c04-963d-47e3-aa36-a664ecbf38b7")
+	)
+	(label "MEASURE_BATT"
+		(at 163.83 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5c58316-957e-410e-978d-5130998b0ee6")
 	)
 	(label "SERIAL_RX"
 		(at 165.1 63.5 0)
@@ -7033,6 +7235,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 186.69 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "621f40bf-41ba-4f8b-b0a1-a9de43f9f17d")
+		(property "Reference" "#PWR96"
+			(at 186.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 186.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dab3ada-9369-4030-94ba-f942886c1fbd")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
+					(reference "#PWR96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 238.76 82.55 0)
 		(unit 1)
@@ -7837,6 +8105,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 186.69 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "831e5bdf-e1d9-4561-a14f-cb6e695a5c01")
+		(property "Reference" "#PWR95"
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "537acc5e-bcb5-40ce-86ff-acc92ae60a43")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
+					(reference "#PWR95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V1")
 		(at 130.81 45.72 0)
 		(unit 1)
@@ -8493,6 +8827,76 @@
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
 					(reference "#PWR35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 186.69 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a111793f-8fb6-49e2-97fe-194c109c0077")
+		(property "Reference" "R17"
+			(at 189.23 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "110k"
+			(at 189.23 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 186.69 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 186.69 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8c9d2fc-089e-4d1e-bc1a-6ecdf8d143fe")
+		)
+		(pin "2"
+			(uuid "e3dadf76-385a-4b61-b037-064e97cdc58d")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9185,6 +9589,76 @@
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
 					(reference "#PWR29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 186.69 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b058f3cc-6940-425a-a248-5b8cf1ef2448")
+		(property "Reference" "R18"
+			(at 189.23 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220k"
+			(at 189.23 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 186.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 186.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c4ca243-87fd-42ef-8456-af2e5eada5ac")
+		)
+		(pin "2"
+			(uuid "7b26ed99-36a1-4368-a9d6-e98869614b85")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/910e63e5-4a03-4b20-a38f-348d4b59ea4e"
+					(reference "R18")
 					(unit 1)
 				)
 			)
