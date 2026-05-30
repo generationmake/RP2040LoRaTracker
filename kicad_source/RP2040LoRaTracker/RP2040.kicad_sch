@@ -8386,7 +8386,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Small"
+		(property "Value" "LED_Small green"
 			(at 239.9665 133.35 0)
 			(effects
 				(font
