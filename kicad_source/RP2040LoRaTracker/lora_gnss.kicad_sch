@@ -2581,7 +2581,7 @@
 				)
 			)
 		)
-		(symbol "RF_Module:Ai-Thinker-Ra-01"
+		(symbol "RF_Module2:Ai-Thinker-Ra-01S"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2593,7 +2593,7 @@
 					)
 				)
 			)
-			(property "Value" "Ai-Thinker-Ra-01"
+			(property "Value" "Ai-Thinker-Ra-01S"
 				(at 13.97 -15.24 0)
 				(effects
 					(font
@@ -2646,10 +2646,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Ai-Thinker-Ra-01_0_1"
+			(symbol "Ai-Thinker-Ra-01S_0_1"
 				(rectangle
-					(start -7.62 12.7)
-					(end 7.62 -12.7)
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2659,9 +2659,9 @@
 					)
 				)
 			)
-			(symbol "Ai-Thinker-Ra-01_1_1"
+			(symbol "Ai-Thinker-Ra-01S_1_1"
 				(pin passive line
-					(at 10.16 10.16 180)
+					(at 12.7 10.16 180)
 					(length 2.54)
 					(name "ANT"
 						(effects
@@ -2679,9 +2679,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 -5.08 180)
+					(at 12.7 -5.08 180)
 					(length 2.54)
-					(name "DIO4"
+					(name "BUSY/DIO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2697,9 +2697,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 -7.62 180)
+					(at 12.7 -7.62 180)
 					(length 2.54)
-					(name "DIO5"
+					(name "RXEN/DIO5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2715,7 +2715,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 0 0)
+					(at -12.7 0 0)
 					(length 2.54)
 					(name "SCK"
 						(effects
@@ -2733,7 +2733,7 @@
 					)
 				)
 				(pin output line
-					(at -10.16 2.54 0)
+					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "MISO"
 						(effects
@@ -2751,7 +2751,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 5.08 0)
+					(at -12.7 5.08 0)
 					(length 2.54)
 					(name "MOSI"
 						(effects
@@ -2769,7 +2769,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -2.54 0)
+					(at -12.7 -2.54 0)
 					(length 2.54)
 					(name "~{NSS}"
 						(effects
@@ -2787,8 +2787,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
-					(length 2.54) hide
+					(at 2.54 -15.24 90)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -2805,7 +2805,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -15.24 90)
+					(at -2.54 -15.24 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2841,7 +2841,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -7.62 0)
+					(at -12.7 -7.62 0)
 					(length 2.54)
 					(name "~{RESET}"
 						(effects
@@ -2859,9 +2859,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 5.08 180)
+					(at 12.7 5.08 180)
 					(length 2.54)
-					(name "DIO0"
+					(name "TXEN/DIO0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2877,7 +2877,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 2.54 180)
+					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "DIO1"
 						(effects
@@ -2895,7 +2895,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 0 180)
+					(at 12.7 0 180)
 					(length 2.54)
 					(name "DIO2"
 						(effects
@@ -2913,7 +2913,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 -2.54 180)
+					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "DIO3"
 						(effects
@@ -2932,7 +2932,7 @@
 				)
 				(pin passive line
 					(at 0 -15.24 90)
-					(length 2.54) hide
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -4141,10 +4141,6 @@
 		(uuid "dc3b6591-786d-4831-899a-601ee82acab8")
 	)
 	(no_connect
-		(at 215.9 73.66)
-		(uuid "10706275-99d2-4c6f-ba8e-04f750df3475")
-	)
-	(no_connect
 		(at 69.85 58.42)
 		(uuid "1a71f5a4-5d77-444c-a95e-849c9ec29760")
 	)
@@ -4177,10 +4173,6 @@
 		(uuid "5ef954b7-623f-44f1-8ed5-bcf83907abce")
 	)
 	(no_connect
-		(at 215.9 81.28)
-		(uuid "9a484175-74b4-46d5-8942-92e3f2c16094")
-	)
-	(no_connect
 		(at 215.9 78.74)
 		(uuid "a3b6cec9-3965-4923-b604-c7a88c859249")
 	)
@@ -4201,6 +4193,16 @@
 			(type default)
 		)
 		(uuid "01615584-4677-4ff5-9337-d4930d505411")
+	)
+	(wire
+		(pts
+			(xy 176.53 83.82) (xy 190.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03618da9-9166-43bd-80ca-0f5ff88ba786")
 	)
 	(wire
 		(pts
@@ -4241,6 +4243,16 @@
 			(type default)
 		)
 		(uuid "0a107165-27b8-45cd-b1fa-8fbbab4a71d1")
+	)
+	(wire
+		(pts
+			(xy 179.07 76.2) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac5d85e-6806-4984-a562-69c6bbcfce8f")
 	)
 	(wire
 		(pts
@@ -4414,6 +4426,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 73.66) (xy 234.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308dec05-9d74-4e44-9f61-8db4743f36c1")
+	)
+	(wire
+		(pts
 			(xy 142.24 81.28) (xy 144.78 81.28)
 		)
 		(stroke
@@ -4494,6 +4516,26 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 78.74) (xy 190.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556e44fd-1399-48ae-b2ff-afb98709cd1d")
+	)
+	(wire
+		(pts
+			(xy 179.07 71.12) (xy 190.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d81ced-07fe-4806-baa3-3bb5d5f9d64f")
+	)
+	(wire
+		(pts
 			(xy 43.18 149.86) (xy 43.18 151.13)
 		)
 		(stroke
@@ -4511,6 +4553,16 @@
 			(type default)
 		)
 		(uuid "599e48d9-9fcf-4463-8d02-f4f645a1bb20")
+	)
+	(wire
+		(pts
+			(xy 215.9 81.28) (xy 234.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd0b038-24f5-4e7d-906f-5d33717dee4f")
 	)
 	(wire
 		(pts
@@ -4544,6 +4596,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 73.66) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d43754-b284-485a-93ad-6184c9c56cbf")
+	)
+	(wire
+		(pts
 			(xy 59.69 138.43) (xy 59.69 139.7)
 		)
 		(stroke
@@ -4574,16 +4636,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 73.66) (xy 195.58 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e9f67a0-aa48-4dfa-823a-7e2bf7604ffa")
-	)
-	(wire
-		(pts
 			(xy 115.57 73.66) (xy 137.16 73.66)
 		)
 		(stroke
@@ -4591,16 +4643,6 @@
 			(type default)
 		)
 		(uuid "6edc7b68-b3ea-4921-b1c1-19ec3aeb28b3")
-	)
-	(wire
-		(pts
-			(xy 184.15 78.74) (xy 195.58 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71d52913-c1a1-4db6-8568-0238b1b9399b")
 	)
 	(wire
 		(pts
@@ -4651,16 +4693,6 @@
 			(type default)
 		)
 		(uuid "7e669b95-22e9-4301-9808-83099e2a3745")
-	)
-	(wire
-		(pts
-			(xy 184.15 76.2) (xy 195.58 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fa9be2e-c6c9-4230-901e-29556a96820d")
 	)
 	(wire
 		(pts
@@ -4801,6 +4833,16 @@
 			(type default)
 		)
 		(uuid "9bd87f39-7891-48d7-a76e-bd7bb00bbfd2")
+	)
+	(wire
+		(pts
+			(xy 200.66 91.44) (xy 200.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d77a172-e653-4428-8463-e4a1052042bf")
 	)
 	(wire
 		(pts
@@ -5174,16 +5216,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 83.82) (xy 195.58 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfdb7f88-f7c2-4414-8634-7e6d30c97e95")
-	)
-	(wire
-		(pts
 			(xy 219.71 143.51) (xy 219.71 144.78)
 		)
 		(stroke
@@ -5224,16 +5256,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 71.12) (xy 195.58 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eabb0667-5665-487c-b17d-915891dedb5b")
-	)
-	(wire
-		(pts
 			(xy 15.24 168.91) (xy 15.24 165.1)
 		)
 		(stroke
@@ -5254,7 +5276,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 58.42) (xy 205.74 60.96)
+			(xy 203.2 58.42) (xy 203.2 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5271,6 +5293,16 @@
 			(type default)
 		)
 		(uuid "f9aad1d0-e2a0-431d-9669-fae4e166de71")
+	)
+	(wire
+		(pts
+			(xy 203.2 91.44) (xy 203.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0e4b12-cea3-4976-ace3-6732018cb036")
 	)
 	(wire
 		(pts
@@ -5383,7 +5415,7 @@
 		(uuid "02c291b9-dc00-44f3-b815-d489d3845ef2")
 	)
 	(label "SPI_MOSI"
-		(at 185.42 71.12 0)
+		(at 180.34 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5393,7 +5425,7 @@
 		(uuid "04281c10-d0de-44a8-b4ca-71587acae309")
 	)
 	(label "SPI_SCK"
-		(at 185.42 76.2 0)
+		(at 180.34 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5403,7 +5435,7 @@
 		(uuid "0ad5e136-2f31-4c13-999e-c6966e690e82")
 	)
 	(label "LORA_CS"
-		(at 185.42 78.74 0)
+		(at 180.34 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5453,7 +5485,7 @@
 		(uuid "3dd193a9-4d76-4493-95a5-6f2048e4c72b")
 	)
 	(label "SPI_MISO"
-		(at 185.42 73.66 0)
+		(at 180.34 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5481,6 +5513,16 @@
 			(justify left bottom)
 		)
 		(uuid "5aea1f26-807a-4ab8-a4ed-739a33c2d022")
+	)
+	(label "LORA_BUSY"
+		(at 220.98 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d177e47-da70-4abb-ab8a-eabf62b629c2")
 	)
 	(label "NEO_I2C_SCL"
 		(at 55.88 76.2 0)
@@ -5532,6 +5574,16 @@
 		)
 		(uuid "93559c56-184b-43e9-915c-f245e78d1d65")
 	)
+	(label "LORA_DIO1"
+		(at 220.98 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ed6f060-1ef5-41d3-8dbb-75c5415d214a")
+	)
 	(label "NEO_RESET"
 		(at 55.88 88.9 0)
 		(effects
@@ -5573,7 +5625,7 @@
 		(uuid "e62a878d-38bc-4eb5-8297-9e66f1a66b89")
 	)
 	(label "LORA_RESET"
-		(at 182.88 83.82 0)
+		(at 177.8 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5646,6 +5698,28 @@
 			)
 		)
 	)
+	(global_label "LORA_BUSY"
+		(shape output)
+		(at 234.95 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e5409eb-fb42-41a3-8b06-0aa7814582c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.5186 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LORA_DIO0"
 		(shape output)
 		(at 234.95 71.12 0)
@@ -5670,7 +5744,7 @@
 	)
 	(global_label "LORA_CS"
 		(shape input)
-		(at 184.15 78.74 180)
+		(at 179.07 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5680,7 +5754,7 @@
 		)
 		(uuid "7ed76be9-1364-4eb0-b8b8-5f7165447444")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.0005 78.74 0)
+			(at 167.9205 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,6 +5777,28 @@
 		(uuid "a11bb7b2-00b7-4d72-972f-2a553bb27102")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 277.2447 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LORA_DIO1"
+		(shape output)
+		(at 234.95 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adf2fbd8-cfa3-4a0b-9053-b821a41f4404")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.0348 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5832,7 @@
 	)
 	(global_label "SPI_SCK"
 		(shape input)
-		(at 184.15 76.2 180)
+		(at 179.07 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5746,7 +5842,7 @@
 		)
 		(uuid "bdb3b7ad-eb3d-4aef-abb2-b68854b4c8e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.3634 76.2 0)
+			(at 168.2834 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5854,7 @@
 	)
 	(global_label "LORA_RESET"
 		(shape input)
-		(at 181.61 83.82 180)
+		(at 176.53 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5768,7 +5864,7 @@
 		)
 		(uuid "c3a24a4e-8594-431b-a24c-d756ef22a8fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.1949 83.82 0)
+			(at 162.1149 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,7 +5876,7 @@
 	)
 	(global_label "SPI_MOSI"
 		(shape input)
-		(at 184.15 71.12 180)
+		(at 179.07 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5790,7 +5886,7 @@
 		)
 		(uuid "c8942f38-c740-4788-bfe9-d2d7740d3725")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.5167 71.12 0)
+			(at 167.4367 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +5898,7 @@
 	)
 	(global_label "SPI_MISO"
 		(shape output)
-		(at 184.15 73.66 180)
+		(at 179.07 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5812,7 +5908,7 @@
 		)
 		(uuid "e65b88dc-0885-423c-bbd3-79fa9912baa0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.5167 73.66 0)
+			(at 167.4367 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,6 +6663,72 @@
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
 					(reference "#PWR68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e894593-6081-416d-a7d6-a36c57380623")
+		(property "Reference" "#PWR100"
+			(at 200.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58a0e33a-ae24-480b-8fe9-adcb3f2a330e")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR100")
 					(unit 1)
 				)
 			)
@@ -7890,7 +8052,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 205.74 58.42 0)
+		(at 203.2 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7899,7 +8061,7 @@
 		(fields_autoplaced yes)
 		(uuid "57d55ae0-a611-46a1-9381-8da39389d489")
 		(property "Reference" "#PWR4"
-			(at 205.74 62.23 0)
+			(at 203.2 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +8070,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 205.74 53.34 0)
+			(at 203.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7916,7 +8078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 58.42 0)
+			(at 203.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7925,7 +8087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 58.42 0)
+			(at 203.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7934,7 +8096,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 205.74 58.42 0)
+			(at 203.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8989,6 +9151,72 @@
 			(project ""
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "855b3b03-686e-485f-8c3d-f4c17bee8ae1")
+		(property "Reference" "#PWR99"
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d908976a-a38f-412d-b678-a0b33c519edf")
+		)
+		(instances
+			(project "RP2040LoRaTracker"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR99")
 					(unit 1)
 				)
 			)
@@ -10334,8 +10562,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Module:Ai-Thinker-Ra-01")
-		(at 205.74 76.2 0)
+		(lib_id "RF_Module2:Ai-Thinker-Ra-01S")
+		(at 203.2 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10344,7 +10572,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9763f76-68f1-448e-88bd-5143166e94d3")
 		(property "Reference" "U2"
-			(at 207.9341 58.42 0)
+			(at 205.3941 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10353,7 +10581,7 @@
 			)
 		)
 		(property "Value" "Ai-Thinker-Ra-01"
-			(at 207.9341 60.96 0)
+			(at 205.3941 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,7 +10590,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:Ai-Thinker-Ra-01-LoRa"
-			(at 231.14 86.36 0)
+			(at 228.6 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10371,7 +10599,7 @@
 			)
 		)
 		(property "Datasheet" "http://wiki.ai-thinker.com/_media/lora/docs/c047ps01a1_ra-01_product_specification_v1.1.pdf"
-			(at 208.28 58.42 0)
+			(at 205.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10380,7 +10608,7 @@
 			)
 		)
 		(property "Description" "Ai-Thinker Ra-01 410-525 MHz LoRa Module, SPI interface, external antenna"
-			(at 205.74 76.2 0)
+			(at 203.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
